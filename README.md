@@ -3,18 +3,18 @@ It is a rest api project that will perform crud operations in golang language.
 
 ## Getting Started
 
-# projeyi klonlayın
+### Projeyi klonlayın
 git clone https://github.com/nurhatipoglu/Rest-API-Golang.git
 
 cd Rest-API-Golang
 
-# Docker kapsayıcısında bir PostgreSQL veritabanı sunucusu başlatın
+### Docker kapsayıcısında bir PostgreSQL veritabanı sunucusu başlatın
 make db-start
 
-# bazı test verileriyle veritabanını oluşturun
+### Bazı test verileriyle veritabanını oluşturun
 make testdata
 
-# API sunucusunu çalıştırın
+### API sunucusunu çalıştırın
 make run
 
 "http://127.0.0.1:8080" adresinde çalışan bir API sunucunuz var.Aşağıdaki uç noktaları sağlar:
