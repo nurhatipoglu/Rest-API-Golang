@@ -14,6 +14,9 @@ make db-start
 ### Bazı test verileriyle veritabanını oluşturun
 make testdata
 
+### Docker Compose ile API sunucusunu çalıştırın
+docker-compose up
+
 ### API sunucusunu çalıştırın
 make run
 
