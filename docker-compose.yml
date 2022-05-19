@@ -8,7 +8,7 @@ services:
     volumes:
       - /tmp/app:/var/log/app
     ports:
-      - "8081:8081"
+      - "8192:8192"
     environment:
       - APP_ENV=local
       - APP_DSN=postgres://db/go_restful?sslmode=disable&user=postgres&password=postgres
@@ -33,7 +33,6 @@ services:
       ports:
       - "8080:8080"
       volumes:
-          - "./nginx-reverse-proxy/server.conf:/etc/nginx/conf.d/server.conf"
+          - "./Nginx-reverse-proxy/server.conf:/etc/nginx/conf.d/server.conf"
       depends_on:
       - server
-      - db
